@@ -1,6 +1,6 @@
 
 .header {
-    height: 500px;
+    height: 550px;
     background-image: url("skyline-blue.jpg");
     background-size: cover;
     background-size: 100% 100%;
@@ -13,26 +13,30 @@
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    background-color: #3c79b2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 24px;
   }
   
-  /* Change the color of links on hover 60 120 178 */
+  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Add an active class to highlight the current page */
-  .topnav a {
-    background-color: #3c79b2;
-    color: white;
-  }
-  
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
+  }
+
+  .name{
+    background-color: rgb(22, 39, 54);
+    color:  #3c79b2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
